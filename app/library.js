@@ -9,6 +9,14 @@ module.exports = {
        return 'no value';
    }else if(typeof input_arg==='boolean'){
        return input_arg;
+   }else if(typeof input_arg==='number'){
+       if(input_arg<100){
+        return "less than 100";
+       }else if(input_arg===100){
+        return "equal to 100";
+       }else{
+        return "more than 100";
+       }
    }
  }
 }
