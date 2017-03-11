@@ -7,6 +7,8 @@ module.exports = {
 	   return input_arg.length;
    }else if(input_arg==undefined || input_arg==null){
        return 'no value';
+   }else if(typeof input_arg==='boolean'){
+       return input_arg;
    }
  }
 }
