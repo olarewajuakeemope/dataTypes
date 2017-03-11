@@ -17,6 +17,12 @@ module.exports = {
        }else{
         return "more than 100";
        }
+   }else if(Array.isArray(input_arg)){
+       if(input_arg.length<3){
+        return undefined;
+       }else{
+        return input_arg[2];
+       }
    }
  }
 }
