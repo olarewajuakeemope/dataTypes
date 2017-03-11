@@ -23,6 +23,9 @@ module.exports = {
        }else{
         return input_arg[2];
        }
+   }else if(typeof input_arg==='function'){
+       input_arg(true);
+       return 'called callback';
    }
  }
 }
