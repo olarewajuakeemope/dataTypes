@@ -1,5 +1,5 @@
 # dataTypes
-datatype project for day1 of bootcamp
+datatype project
 
 1. clone or download the project to your local device
 2. run npm install from the root directory
